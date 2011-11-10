@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TimeTableList!</string>
+
+    <string name="app_name">CountDownTimeTable</string>
+
+    <string name="no_data">TimeTable data not exist.</string>
+
+    <string name="default_timetable_filename">JR KeihinTohokuLine HigashiKanagawa(to Omiya) Holiday.txt</string>
+
+    <string name="about_dialog_message">
+    </string>
+    
+    <!-- 初回起動メッセージ -->
+    <string name="first_message">This app reads timetable in /sdcard/CountDownTimeTable/ and shows difference from now time.\n
+Please make your timetable , refer to example.
+    </string>
+    
+    <!-- 設定画面 -->
+    <string name="prefcategory_screen">Show</string>
+
+    <string name="pref_title_autochange_orientation">auto change of screen orientation</string>
+    <string name="pref_summary_autochange_orientation">switch portlait/landscape by device</string>
+
+    <string name="pref_title_keep_screen_on">keep screen on</string>
+    <string name="pref_summary_keep_screen_on">screen keep on during app alive</string>
+</resources>

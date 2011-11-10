@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TimeTableList!</string>
+
+    <string name="app_name">CountDownTimeTable</string>
+
+    <string name="no_data">時刻表データがありません。</string>
+
+    <string name="default_timetable_filename">JR京浜東北線 東神奈川(大宮方面) 休日.txt</string>
+
+    <string name="about_dialog_message"><!-- \n
+		yamashina80@gmail.com\n
+		http://emitteeer.sakura.ne.jp/cdt2/\n
+		\n
+		アイコンはxxさん(http://)に作成していただきました。\n
+		\n
+		一部の画像はxxさんよりお借りしました。\n
+		\n
+		ありがとうございます。\n
+	-->
+    </string>
+    
+    <!-- 初回起動メッセージ -->
+    <string name="first_message">このアプリは/sdcard/CountDownTimeTable/配下のタイムテーブルを読み込み、現在時刻までの時間差を表示します。\n
+時刻表の例を参考にタイムテーブルを作成してください。
+    </string>
+    
+    <!-- 設定画面 -->
+    <string name="prefcategory_screen">画面表示</string>
+
+    <string name="pref_title_autochange_orientation">画面方向の自動変更</string>
+    <string name="pref_summary_autochange_orientation">端末の向きによって縦・横に画面表示を変更します</string>
+
+    <string name="pref_title_keep_screen_on">画面の常時表示</string>
+    <string name="pref_summary_keep_screen_on">アプリ起動中は画面を常時表示します</string>
+</resources>

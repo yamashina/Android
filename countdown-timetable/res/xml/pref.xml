@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/prefcategory_screen">
+		<CheckBoxPreference
+			android:key="auto_change_screen_orientation"
+			android:title="@string/pref_title_autochange_orientation"
+			android:summary="@string/pref_summary_autochange_orientation"
+			android:defaultValue="false"
+		/>
+		<CheckBoxPreference
+			android:key="keep_screen_on"
+			android:title="@string/pref_title_keep_screen_on"
+			android:summary="@string/pref_summary_keep_screen_on"
+			android:defaultValue="false"
+		/>
+	</PreferenceCategory>
+</PreferenceScreen>

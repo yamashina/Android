@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="60dp"
+  android:orientation="horizontal"
+  >
+  <!-- 選択アイコン -->
+  <!--
+  <ImageView android:id="@+id/selected_icon"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	/>
+  -->
+  	
+  <!-- 時刻 -->
+  <TextView
+  	android:id="@+id/time"
+  	android:layout_width="100dp"
+  	android:layout_height="wrap_content"
+  	android:layout_marginLeft="20dp"
+  	android:layout_gravity="center_vertical"
+  	android:textSize="25sp"
+  	/>
+
+  <!-- 内容 -->
+  <TextView
+  	android:id="@+id/content"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:layout_margin="2dp"
+  	android:layout_gravity="center_vertical"
+  	android:textSize="25sp"
+  	/>
+</LinearLayout>

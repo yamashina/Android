@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+	<!-- カウントダウン時間のビュー -->
+	<TextView 
+		android:id="@+id/time"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:textSize="64sp"
+	/>
+
+	<!-- データ表示用のビュー -->
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		android:choiceMode="singleChoice" />
+	<!-- データが無いときに表示するテキストビュー -->
+	<TextView
+		android:id="@android:id/empty"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1.0"
+		android:text="@string/no_data" />
+
+</LinearLayout>
